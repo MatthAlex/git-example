@@ -12,9 +12,12 @@ def FahrToCelsius(fahr):
     Returns:
         float: temperature in Celsius
     """
-    celsius = ((fahr - 32) * (5/9)) 
+    celsius = ((fahr - 32) * (5/9))
     return celsius
 def FahrToKelvin(fahr):
+    '''
+    sample
+    '''
     kelvin = FahrToCelsius(fahr) + 273.15
     return kelvin
 
